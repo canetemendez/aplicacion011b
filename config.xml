@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--config.xml reference: https://build.phonegap.com/docs/config-xml-->
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.Bullying"
+version = "1.0.0">
+
+<name>Base de Datos</name>
+
+<description>
+Base de datos
+</description>
+
+<!--Personaliza la aplicacion y plataforma-->
+<preference name="phonegap-version" value="3.7.0"/>
+
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="true"/>
+<preference name="android-installLocation" value="auto"/>
+
+<!--Plugins-->
+
+<!--Core Plugins-->
+<plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb"/>
+
+<icon src="res/android/mdpi.png">
+</widget>
